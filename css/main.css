@@ -3,9 +3,7 @@
 /* Responsive */
 
 /*------------------------------------------------------------------------GENERAL*/
-* {
-    outline: 1px solid rgba(255,0,0,0.4);
-}
+
 .clearfix {
     display:table;
 }
@@ -203,6 +201,7 @@ footer {
         display:inline-block;
         float:right;
         margin:20px;
+        font-size: 30px;
     }
     .nav {
         display:none;
@@ -216,9 +215,5 @@ footer {
     }
     .hero .texto h1, .texto p {
         margin:0 5px;
-    }
-
-    .col-1 {
-        width: auto;
     }
 }
