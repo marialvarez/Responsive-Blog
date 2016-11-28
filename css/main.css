@@ -95,6 +95,7 @@ header img {
     font-style: italic;
     color:#fff;
     font-size: 15px;
+    padding-bottom: 10px;
 }
 
 .list-box {
@@ -107,7 +108,7 @@ header img {
 .list-box .box {
     background: #1a1822;
     text-align: center;
-    height: 80px;
+    height: 110px;
     position: relative;
     top:-22px;
 }
@@ -152,6 +153,9 @@ header img {
 }
 .right-box {
     padding-bottom: 10px;
+}
+.right-box p {
+    padding: 0 15px;
 }
 .social-media {
     list-style: none;
@@ -215,5 +219,8 @@ footer {
     }
     .hero .texto h1, .texto p {
         margin:0 5px;
+    }
+    .right-box, .search-box {
+        display: none;
     }
 }
